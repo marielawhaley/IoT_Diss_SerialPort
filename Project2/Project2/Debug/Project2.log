@@ -1,0 +1,17 @@
+﻿Build started 12/14/2015 12:53:48 PM.
+Project "C:\Users\Mariela Whaley\Documents\Visual Studio 2015\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr:pure /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib serialPort.cpp
+cl : Command line warning D9035: option 'clr:pure' has been deprecated and will be removed in a future release
+  serialPort.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mariela Whaley\Documents\Visual Studio 2015\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Mariela Whaley\Documents\Visual Studio 2015\Projects\Project2\Debug\Project2.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
+  Debug\MySQL.obj
+  Debug\serialPort.obj
+  "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+  Project2.vcxproj -> C:\Users\Mariela Whaley\Documents\Visual Studio 2015\Projects\Project2\Debug\Project2.exe
+Done Building Project "C:\Users\Mariela Whaley\Documents\Visual Studio 2015\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.44
