@@ -36,11 +36,6 @@ void  serialPort::DataReceivedHandler(Object^ sender, SerialDataReceivedEventArg
 	Console::Write(indata);
 	Char delimiter = ',';
 	dataArray = indata->Split(delimiter);
-	Console::Write(dataArray[0]);
-	Console::Write(dataArray[1]);
-	Console::Write(dataArray[2]);
-	Console::Write(dataArray[3]);
-	Console::Write(dataArray[4]);
 
 	my_sql.insertValues(dataArray[0], dataArray[1], dataArray[2], dataArray[3], dataArray[4]);
 }
